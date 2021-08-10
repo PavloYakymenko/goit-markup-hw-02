@@ -1,0 +1,8 @@
+.test-class {
+    color: blue;
+}
+
+.test-class:focus{
+    color: rgb(55, 100, 75);
+}
+
