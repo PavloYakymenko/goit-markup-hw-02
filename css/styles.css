@@ -1,8 +1,162 @@
-.test-class {
-    color: blue;
+:root {
+    --brand-color #2196F3;
+    --white-color #ffffff;
 }
 
-.test-class:focus{
-    color: rgb(55, 100, 75);
+.web {
+    position: absolute;
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 24px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: #2196f3;
 }
 
+.head-studio {
+    position: absolute;
+    width: 49px;
+    height: 16px;
+    left: 453px;
+    top: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.head-studio:hover  {
+    color: #2196F3;
+}
+
+.head-portfolio {
+    position: absolute;
+    width: 77px;
+    height: 16px;
+    left: 552px;
+    top: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.head-portfolio:hover  {
+    color: #2196F3;
+}
+
+.head-contacts {
+    position: absolute;
+    width: 68px;
+    height: 16px;
+    left: 679px;
+    top: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+    text-decoration: none;
+}
+
+.head-contacts:hover  {
+    color: #2196F3;
+}
+
+.head-mail {
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    left: 1078px;
+    top: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.head-mail:hover {
+    color: #2196F3;
+}
+
+.head-tel {
+    position: absolute;
+    width: 122px;
+    height: 16px;
+    left: 1263px;
+    top: 32px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #757575;
+}
+
+.head-tel:hover {
+    color: #2196F3;
+}
+
+.general {
+  background-color: #e5e5e5;
+  position: relative;
+  width: 1600px;
+  height: 2349px;
+}
+
+.head {
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+}
+
+.heroe {
+  position: absolute;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+  background-color: #2f303a;
+}
+
+.button {
+}
+
+.body {
+}
+
+.body {
+  background-color: #e5e5e5;
+}
+
+/*
+акцент #2196F3;
+заголовки, ссылки #212121;
+белый #FFFFFF;
+
+*/
+/* 
+ style="list-style: none;"
+  */
