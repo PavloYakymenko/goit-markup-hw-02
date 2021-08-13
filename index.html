@@ -7,50 +7,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
 </head>
 
-<body class="general">
-    <header class="head">
-        <a href=""></a>
-        <a href="" class="web">WebStudio</a>
-        <nav>
-            <ul>
-                <li><a class="head-studio" href="">Студия</a></li>
-                <li><a class="head-portfolio" href="./portfolio.html">Портфолио</a></li>
-                <li><a class="head-contacts" href="">Контакты</a></li>
+<body class="body">
+    <header class="header">
+        <a href="" class="header-web-link link" lang="en">Web<span class="header-studio-link link"
+                lang="en">Studio</span></a>
+        <nav class="nav">
+            <ul class="list">
+                <li><a class="header-page-link link" href="">Студия</a></li>
+                <li><a class="header-page-link link" href="./portfolio.html">Портфолио</a></li>
+                <li><a class="header-page-link link" href="">Контакты</a></li>
             </ul>
         </nav>
-        <a class="head-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="head-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+        <a class="header-mail-tel link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        <a class="header-mail-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
     </header>
     <main>
-        <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
+        <section class="hero">
+            <h1 class="hero-text">Эффективные решения для вашего бизнеса</h1>
+            <button class="hero-button" type="button">Заказать услугу</button>
         </section>
-        <ul>
-            <li>
+        <ul class="central-list">
+            <li class="ditales-first">
                 <h3>Внимание к деталям</h3>
                 <p>
                     Идейные соображения, а также начало повседневной работы по
                     формированию позиции.
                 </p>
             </li>
-            <li>
+            <li class="punctuality">
                 <h3>Пунктуальность</h3>
                 <p>
                     Задача организации, в особенности же рамки и место обучения кадров
                     влечет за собой.
                 </p>
             </li>
-            <li>
+            <li class="planing">
                 <h3>Планирование</h3>
                 <p>
                     Равным образом консультация с широким активом в значительной степени
                     обуславливает.
                 </p>
             </li>
-            <li>
+            <li class="modern-tech">
                 <h3>Современные технологии</h3>
                 <p>
                     Значимость этих проблем настолько очевидна, что реализация плановых
@@ -58,16 +65,16 @@
                 </p>
             </li>
         </ul>
-        <section>
-            <h2>Чем мы занимаемся</h2>
+        <section class="what-we-do">
+            <h2 class="what-we-do-title">Чем мы занимаемся</h2>
             <ul>
-                <li>
+                <li class="what-we-do-pic-one">
                     <img src="./images/whatwedo1.jpg" alt="гарна-картинка1" width="370" />
                 </li>
-                <li>
+                <li class="what-we-do-pic-two">
                     <img src="./images/whatwedo2.jpg" alt="гарна-картинка2" width="370" />
                 </li>
-                <li>
+                <li class="what-we-do-pic-thre">
                     <img src="./images/whatwedo3.jpg" alt="гарна-картинка3" width="370" />
                 </li>
             </ul>
@@ -98,8 +105,8 @@
             </ul>
         </section>
     </main>
-    <footer>
-        <a href="">WebStudio</a>
+    <footer class="footer">
+        <a href="" class="">WebStudio</a>
         <address>г. Киев, пр-т Леси Украинки, 26</address>
         <a href="mailto:info@example.com">info@example.com</a>
         <a href="tel:+380991111111">+38 099 111 11 11</a>
