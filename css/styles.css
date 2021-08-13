@@ -22,6 +22,7 @@
 
 .hero-button {
   background-color: var(--brand-color);
+  cursor: pointer;
 }
 
 /* -------------HEADER--------------- */
@@ -186,6 +187,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--nav-color);
+  cursor: pointer;
 }
 
 .portfolio-button:hover,
