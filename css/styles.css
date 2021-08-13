@@ -3,11 +3,13 @@
   --white-color: #ffffff;
   --nav-color: #212121;
   --color-gray: #757575;
+  --color-dark-gray: #2f303a;
 }
 
 .body {
   font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+  background-color: var(--white-color);
 }
 
 .list {
@@ -23,11 +25,11 @@
 }
 
 /* -------------HEADER--------------- */
-.header {
+/* .header {
   background-color: var(--white-color);
-}
+} */
 
-.header-web-link {
+.web-link {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -37,7 +39,7 @@
   color: var(--brand-color);
 }
 
-.header-studio-link {
+.studio-link {
   font-family: Raleway;
   font-style: normal;
   font-weight: bold;
@@ -71,4 +73,107 @@
 .header-mail-tel:hover,
 .header-mail-tel:focus {
   color: var(--brand-color);
+}
+
+/* ----------------------------HERO--------------- */
+
+.hero {
+  background-color: var(--color-dark-gray);
+}
+
+.hero-text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.hero-button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+}
+
+/* ----------------------------CENTRAL LIST--------------- */
+
+.central-list-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--nav-color);
+}
+
+.central-list-text {
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--color-gray);
+}
+
+/* ----------------------------WHAT WE DO--------------- */
+
+.central-title {
+  font-size: 36px;
+  line-height: 1.28;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--nav-color);
+}
+/* ----------------------------OUR TEAM--------------- */
+
+.team-name {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--nav-color);
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-gray);
+}
+
+/* ----------------------------FOOTER--------------- */
+.footer {
+  background-color: var(--color-dark-gray);
+}
+
+.studio-link-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+.address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+.footer-mail-tel {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
