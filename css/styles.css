@@ -7,7 +7,6 @@
 }
 
 .body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
   background-color: var(--white-color);
 }
@@ -31,7 +30,7 @@
 } */
 
 .web-link {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -41,7 +40,7 @@
 }
 
 .studio-link {
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 26px;
@@ -58,6 +57,8 @@
   color: var(--nav-color);
 }
 
+.studio-link:hover,
+.studio-link:focus,
 .header-page-link:hover,
 .header-page-link:focus {
   color: var(--brand-color);
@@ -71,6 +72,8 @@
   color: var(--color-gray);
 }
 
+.footer-mail-tel:hover,
+.footer-mail-tel:focus,
 .header-mail-tel:hover,
 .header-mail-tel:focus {
   color: var(--brand-color);
@@ -165,11 +168,17 @@
   color: var(--white-color);
 }
 
+.studio-link-footer:hover,
+.studio-link-footer:focus {
+  color: var(--brand-color);
+}
+
 .address {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--white-color);
+  font-style: normal;
 }
 
 .footer-mail-tel {
@@ -177,11 +186,13 @@
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 /* ----------------------------PORTFOLIO--------------- */
 
 .portfolio-button {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
